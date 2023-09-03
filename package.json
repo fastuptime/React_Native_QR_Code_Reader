@@ -1,0 +1,33 @@
+{
+  "name": "stickersmash",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/html-elements": "^0.5.1",
+    "@expo/webpack-config": "^19.0.0",
+    "@types/react": "~18.2.14",
+    "expo": "~49.0.8",
+    "expo-barcode-scanner": "~12.5.3",
+    "expo-camera": "~13.4.2",
+    "expo-status-bar": "~1.6.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.72.4",
+    "react-native-camera": "^4.2.1",
+    "react-native-dropdown-select-list": "^2.0.5",
+    "react-native-elements": "^3.4.3",
+    "react-native-web": "~0.19.6",
+    "typescript": "^5.1.3",
+    "expo-linking": "~5.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
